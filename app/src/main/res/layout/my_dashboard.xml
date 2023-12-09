@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaf3fa"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:src="@drawable/dashboard_animation"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speech Rectification"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="#df03082b"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="440dp"
+        android:layout_height="590dp"
+        android:background="@drawable/cvbg"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/dashboard1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv1"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/c1"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speech to Speech"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Record your voice here!"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="65dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dashboard2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv4" />
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/c2"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speech Therapy"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Practice more sounds!"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dashboard3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv3" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="65dp"
+                android:background="@drawable/c3"
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text to Speech"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Convert your text to speech here!"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dashboard4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/cv5" />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/c4"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Dataset"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add more words to our dataset"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="55dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dashboard5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="100dp"
+                android:background="@drawable/c6"/>
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:background="@drawable/c5"
+                android:layout_marginLeft="25dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speech Therapist"
+                android:textColor="#d703082b"
+                android:textSize="23dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book your appointment here!"
+                android:textColor="#6003082b"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="65dp"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

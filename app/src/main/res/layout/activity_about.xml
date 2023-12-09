@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8fafc"
+    android:orientation="vertical"
+    tools:context=".About">
+
+    <ImageView
+        android:id="@+id/about_back"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_back_arrow"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <ImageView
+        android:id="@+id/logout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ic_about_logout"
+        android:layout_marginStart="365dp"
+        android:layout_marginTop="-32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech Rectification"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#893a76"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech Therapy"
+        android:textColor="#1f89c9"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This application is about the speech Articulation disorder. In this application, we will provide you some speech rectification and speech therapy techniques. By using our application, you can practice to pronounce correct words sounds. The purpose of this Speech Rectification Application is to provide people the confidence to speak accurately and bridge the gap of communication with peers. Here we provide the five main features in this application."
+        android:textColor="#6003082b"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Features"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#893a76"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1- Speech to Speech"
+        android:textColor="#6003082b"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2- Text to Speech"
+        android:textColor="#6003082b"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3- Sound Practice"
+        android:textColor="#6003082b"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4- Add to Dataset"
+        android:textColor="#6003082b"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="23dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5- Speech Therapist"
+        android:textColor="#6003082b"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:layout_marginStart="65dp"
+        android:layout_marginEnd="23dp"/>
+
+</LinearLayout>

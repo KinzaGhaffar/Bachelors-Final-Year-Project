@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="10dp"
+    app:cardMaxElevation="5dp"
+    android:backgroundTint="#f8fafc"
+    layout_margin="10dp"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/teacherImageView"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="120dp"
+            android:layout_height="120dp"/>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/teacherImageView"-->
+<!--            android:src="@mipmap/ic_launcher"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="150dp"/>-->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:textColor="#223b7b"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="Therapist Name"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:textColor="#6003082b"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:text="Description"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/experienceTextView"
+                android:textColor="#6003082b"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:text="Experience"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/timeTextView"
+                android:textColor="#6003082b"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:text="Time"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/contactTextView"
+                android:textColor="#6003082b"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:maxLines="1"
+                android:text="Contact Number"
+                android:layout_marginStart="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8fafc"
+    android:orientation="vertical"
+    tools:context=".second_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#893a76"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech Rectification Application"
+        android:textColor="#1f89c9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="80dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech Therapy"
+        android:textColor="#1f89c9"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="110dp"/>
+
+
+<!--    <View-->
+<!--        android:id="@+id/first_Line"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/orange_line"/>-->
+
+<!--    <View-->
+<!--        android:id="@+id/second_Line"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="100dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/lightpurpleline"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_toRightOf="@+id/first_Line"/>-->
+
+<!--    <View-->
+<!--        android:id="@+id/third_Line"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="250dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/purple_line"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_toRightOf="@+id/second_Line"/>-->
+
+<!--    <View-->
+<!--        android:id="@+id/fourth_Line"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/red_line"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_toRightOf="@+id/third_Line"/>-->
+
+<!--    <View-->
+<!--        android:id="@+id/fifth_Line"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="220dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/green_line"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_toRightOf="@+id/fourth_Line"/>-->
+
+<!--    <View-->
+<!--        android:id="@+id/sixth_Line"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/yellow_line"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_toRightOf="@+id/fifth_Line"/>-->
+
+<!--    <View-->
+<!--        android:id="@+id/seventh_Line"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/darkgreen_line"-->
+<!--        android:layout_marginLeft="8dp"-->
+<!--        android:layout_toRightOf="@+id/sixth_Line"/>-->
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_height="wrap_content"
+        android:layout_width="330dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/second_screen" />
+
+    <Button
+        android:id="@+id/secondscreenloginbtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:layout_marginTop="695dp"
+        android:layout_marginStart="60dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:padding="8dp"
+        android:backgroundTint="#1f98c9"
+        android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/secondscreensignupbtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="SignUp"
+        android:layout_marginTop="750dp"
+        android:textSize="20dp"
+        android:padding="8dp"
+        android:textAllCaps="false"
+        android:layout_marginStart="60dp"
+        android:textStyle="bold"
+        android:backgroundTint="#893a76"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

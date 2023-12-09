@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaf3fa"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Speech Therapist"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#223b7b"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find your speech therapist here!"
+        android:textColor="#6003082b"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20sp"
+        android:src="@drawable/therapist"/>
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:text="View All Therapists"
+        app:backgroundTint="#223b7b"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="60dp"/>
+<!--    <Button-->
+<!--        android:id="@+id/btnAddInfo"-->
+<!--        android:text="Add New "-->
+<!--        app:backgroundTint="#223b7b"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginStart="80dp"/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="#eaf3fa">
+
+
+        <ImageView
+            android:id="@+id/therapist_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_details_back"
+            android:layout_marginStart="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="#223b7b"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-35dp"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_detail_about"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="#223b7b"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_detail_logout"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="#223b7b"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

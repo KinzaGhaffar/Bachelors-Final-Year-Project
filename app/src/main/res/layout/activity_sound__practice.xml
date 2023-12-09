@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaf3fa"
+    android:orientation="vertical"
+    tools:context=".Sound_Practice">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.7dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15.7dp"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="430dp"
+                android:layout_height="820dp"
+                android:layout_marginStart="-20dp"
+                android:background="@drawable/white" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+   <ViewFlipper
+       android:id="@+id/viewflipper"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <ImageView
+           android:id="@+id/banana"
+           android:layout_width="350dp"
+           android:layout_height="400dp"
+           android:layout_marginStart="30dp"
+           android:src="@drawable/banana">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/baseball"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="50dp"
+           android:layout_marginTop="70dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/baseball">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/cellphone"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="70dp"
+           android:src="@drawable/cellphone">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/sailboat"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="40dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/saillboat">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/salad"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="90dp"
+           android:src="@drawable/salad">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/sing"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="70dp"
+           android:layout_marginTop="80dp"
+           android:src="@drawable/sing">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/soap"
+           android:layout_width="300dp"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="80dp"
+           android:src="@drawable/soap">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/socks"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="90dp"
+           android:src="@drawable/socks">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/sofa"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="90dp"
+           android:src="@drawable/sofa">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/soup"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="90dp"
+           android:src="@drawable/soup">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/spoon"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="70dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/spoon">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/sun"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="80dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/sun">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/swimming"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="50dp"
+           android:layout_marginTop="70dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/swimming">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/reading"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="70dp"
+           android:layout_marginTop="80dp"
+           android:scaleType="centerCrop"
+           android:src="@drawable/reading">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/car"
+           android:layout_width="wrap_content"
+           android:layout_height="200dp"
+           android:layout_marginStart="70dp"
+           android:layout_marginTop="80dp"
+           android:src="@drawable/car">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/red"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           android:layout_marginStart="120dp"
+           android:layout_marginTop="80dp"
+           android:src="@drawable/red">
+       </ImageView>
+
+       <ImageView
+           android:id="@+id/road"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="60dp"
+           android:layout_marginTop="80dp"
+           android:src="@drawable/road">
+       </ImageView>
+
+   </ViewFlipper>
+
+    <EditText
+        android:id="@+id/TextMicVoice"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="85dp"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="340dp"
+        android:padding="12dp"
+        android:backgroundTint="#edf3f5"
+        android:textColor="@color/black"
+        android:background="@drawable/forget" />
+
+    <ImageView
+        android:id="@+id/Mic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="170dp"
+        android:src="@drawable/ic_baseline_mic_24">
+    </ImageView>
+
+    <Button
+        android:id="@+id/PreviousBtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:backgroundTint="#1f98c9"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="660dp">
+    </Button>
+
+    <Button
+        android:id="@+id/NextBtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#893a76"
+        android:textColor="@color/white"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="605dp">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="800dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/sound_practice_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_sound_practice_back"
+            android:layout_marginStart="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="#893a76"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-35dp"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_sound_practice_about"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="#893a76"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_sound_practice_logout"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="#893a76"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

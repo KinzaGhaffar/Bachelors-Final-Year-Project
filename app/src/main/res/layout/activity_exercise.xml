@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eaf3fa"
+    android:orientation="vertical"
+    tools:context=".Sound_Practice">
+
+    <VideoView
+        android:id="@+id/video"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:background="#eaf3fa">
+    </VideoView>
+
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#893a76"
+        android:textColor="@color/white"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="605dp">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="800dp"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/sound_practice_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_sound_practice_back"
+            android:layout_marginStart="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="#893a76"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-35dp"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_sound_practice_about"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="#893a76"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_sound_practice_logout"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="110dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="#893a76"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

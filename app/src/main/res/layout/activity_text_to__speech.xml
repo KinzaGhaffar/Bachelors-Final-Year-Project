@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#add8e6"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.7dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15.7dp"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="700dp"
+                android:background="@drawable/white_cueve_bg" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView"
+                android:layout_height="220dp"
+                android:layout_width="280dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="60dp"
+                android:src="@drawable/speechtherapy" />
+
+            <EditText
+                android:id="@+id/Text_to_speech_textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:drawablePadding="15dp"
+                android:hint="Enter Text to Speak..."
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="300dp"
+                android:padding="12dp"
+                android:backgroundTint="#edf3f5"
+                android:textColor="@color/black"
+                android:background="@drawable/forget" />
+
+            <Button
+                android:id="@+id/text_to_speech_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Speak"
+                android:drawableLeft="@drawable/speak"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAllCaps="false"
+                android:padding="8dp"
+                android:layout_marginTop="370dp"
+                android:layout_marginStart="130dp"
+                android:backgroundTint="#1f98c9"
+                android:textColor="@color/white">
+            </Button>
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="800dp"
+        android:background="#add8e6">
+
+
+        <ImageView
+            android:id="@+id/text_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_back"
+            android:layout_marginStart="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-35dp"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_info"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_logout"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+

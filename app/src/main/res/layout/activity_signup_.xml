@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#add8e6"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15.7dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15.7dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="800dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="700dp"
+                android:background="@drawable/white_cueve_bg" />
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="300dp"
+                android:layout_height="250dp"
+                android:src="@drawable/speeech"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:id="@+id/entername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_person_add"
+                android:drawablePadding="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="260dp"
+                android:backgroundTint="#f0edf4"
+                android:padding="12dp"
+                android:hint="Enter Name"
+                android:background="@drawable/forget"
+                android:inputType="text"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/enteremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:inputType="textEmailAddress"
+                android:drawableLeft="@drawable/ic_baseline_email"
+                android:drawablePadding="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="320dp"
+                android:backgroundTint="#f0edf4"
+                android:padding="12dp"
+                android:hint="Enter Email"
+                android:textColor="@color/black"
+                android:background="@drawable/forget" />
+
+            <EditText
+                android:id="@+id/enterpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#f0edf4"
+                android:layout_marginStart="15dp"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_baseline_password"
+                android:drawablePadding="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="380dp"
+                android:layout_marginBottom="30dp"
+                android:padding="12dp"
+                android:hint="Enter Password"
+                android:textColor="#18336e"
+                android:background="@drawable/forget"/>
+
+            <ImageView
+                android:id="@+id/signup_password_visibility"
+                android:layout_marginTop="390dp"
+                android:layout_marginStart="330dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_eye">
+            </ImageView>
+
+            <EditText
+                android:id="@+id/enterconfirmpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#f0edf4"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:drawableLeft="@drawable/ic_baseline_password"
+                android:drawablePadding="15dp"
+                android:inputType="textPassword"
+                android:layout_marginTop="440dp"
+                android:padding="12dp"
+                android:hint="Enter Confirm Password"
+                android:textColor="@color/black"
+                android:background="@drawable/forget"/>
+
+            <ImageView
+                android:id="@+id/signup_confirm_password_visibility"
+                android:layout_marginTop="450dp"
+                android:layout_marginStart="330dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_eye">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/signup_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Your Account!"
+                android:textColor="#1f98c9"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="500dp"
+                android:layout_marginRight="35dp"/>
+
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="540dp"
+                android:layout_marginBottom="2dp"
+                android:text="Signup"
+                android:textSize="20dp"
+                android:padding="8dp"
+                android:textStyle="bold"
+                android:backgroundTint="#1f98c9"
+                android:textColor="@color/white">
+            </Button>
+
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="20.7dp">
+
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:text="Already have an account? Sign In"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#ffff"
+                android:backgroundTint="#add8e6"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:textAllCaps="false"
+                android:layout_marginTop="30dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

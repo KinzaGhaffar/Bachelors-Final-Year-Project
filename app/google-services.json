@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "985881446383",
+    "project_id": "speechrecificationapp",
+    "storage_bucket": "speechrecificationapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985881446383:android:66184f2fec307e28c4181a",
+        "android_client_info": {
+          "package_name": "com.example.speechrecificationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985881446383-ec92v57knkpvq1kmvjh59uof9uojtirc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzOx5bc76B91BJTdY6fXgIODxRDAA5B_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985881446383-ec92v57knkpvq1kmvjh59uof9uojtirc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

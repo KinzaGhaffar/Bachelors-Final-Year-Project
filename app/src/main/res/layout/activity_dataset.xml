@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:text="Enter Correct and Incorrect Word"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="#1f98c9"
+        android:padding="10dp"
+        android:elevation="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/shape_background">
+
+
+        <EditText
+            android:id="@+id/Correct_Word"
+            android:hint="Correct Words..."
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/Incorrect_words"
+            android:hint="Incorrect Words..."
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/shape_background"
+            android:padding="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/savewordsbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textSize="20dp"
+            android:layout_marginStart="270dp"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_marginTop="20sp"
+            android:backgroundTint="#1f98c9"
+            android:textColor="@color/white">
+        </Button>
+
+        <Button
+            android:id="@+id/showbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show"
+            android:textSize="20dp"
+            android:layout_marginStart="170dp"
+            android:textAllCaps="false"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:backgroundTint="#1f98c9"
+            android:layout_marginTop="-55dp"
+            android:textColor="@color/white">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:background="#1f98c9">
+
+
+        <ImageView
+            android:id="@+id/dataset_back"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_back"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-35dp"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/about"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_info"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="120dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_logout"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="100dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="35dp"
+            android:layout_marginStart="-40dp"/>
+
+    </LinearLayout>
+</LinearLayout>
