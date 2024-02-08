@@ -1,0 +1,4 @@
+*.Python linguist-detectable=true  
+*.Kotlin linguist-detectable=false  
+*.XML linguist-detectable=false  
+*.html linguist-detectable=false 
